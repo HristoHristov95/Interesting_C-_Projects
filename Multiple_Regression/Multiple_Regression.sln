@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multiple_Regression", "Multiple_Regression\Multiple_Regression.vcxproj", "{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestOfMultipleRegression1", "UnitTestOfMultipleRegression1\UnitTestOfMultipleRegression1.vcxproj", "{15B1B800-69CD-4717-A166-4F1A597B7875}"
+	ProjectSection(ProjectDependencies) = postProject
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D} = {741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Debug|x64.ActiveCfg = Debug|x64
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Debug|x64.Build.0 = Debug|x64
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Debug|x86.Build.0 = Debug|Win32
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Release|x64.ActiveCfg = Release|x64
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Release|x64.Build.0 = Release|x64
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Release|x86.ActiveCfg = Release|Win32
+		{741FB4A0-3F8F-43F8-8917-6CFB04BB2F4D}.Release|x86.Build.0 = Release|Win32
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Debug|x64.ActiveCfg = Debug|x64
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Debug|x64.Build.0 = Debug|x64
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Debug|x86.ActiveCfg = Debug|Win32
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Debug|x86.Build.0 = Debug|Win32
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Release|x64.ActiveCfg = Release|x64
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Release|x64.Build.0 = Release|x64
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Release|x86.ActiveCfg = Release|Win32
+		{15B1B800-69CD-4717-A166-4F1A597B7875}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
